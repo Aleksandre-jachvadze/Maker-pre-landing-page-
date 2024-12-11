@@ -14,7 +14,7 @@ const CTA = () => {
           /^([a-zA-Z0-9\.-]+)@([a-zA-z0-9-]+)(\.[a-z]{2,18})(\.[a-z]{2,8})?$/
         )
     ) {
-      setMessage({type:"success",message:"Thank you for subscribing!"});
+      setMessage({type:"success",message:"გმადლობთ გამოწერისთვის"});
 
     } else {
       setMessage({type:"error",message:"Please enter a valid email address"});
