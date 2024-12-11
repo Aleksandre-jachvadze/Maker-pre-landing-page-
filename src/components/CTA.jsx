@@ -6,7 +6,7 @@ const CTA = () => {
   function handleEmailValdiation(e) {
     e.preventDefault();
     if (emailRef.current.value === "") {
-      setMessage({type:"error",message:"Please enter your email"});
+      setMessage({type:"error",message:"აუ შეიყვანე რა მეილი"});
     } else if (
       emailRef.current.value
         .trim()
@@ -17,7 +17,7 @@ const CTA = () => {
       setMessage({type:"success",message:"გმადლობთ გამოწერისთვის"});
 
     } else {
-      setMessage({type:"error",message:"Please enter a valid email address"});
+      setMessage({type:"error",message:"აბა ეხლა სწორედ რომ შეიყვანე შენი იმეილი"});
     }
   }
 
@@ -50,3 +50,4 @@ const CTA = () => {
 };
 
 export default CTA;
+
