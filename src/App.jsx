@@ -15,8 +15,6 @@ function App() {
         <CTA />
       </main>
       <footer className="p-8 text-white text-center">
-        Challenge by <a href="https://www.frontendmentor.io">Frontend Mentor</a>
-        . Coded by <a href="#none">SG</a>.
       </footer>
     </>
   );
